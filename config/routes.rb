@@ -12,5 +12,8 @@ Rails.application.routes.draw do
   #links to the show method, and the "as picture" establishes this route as a picture_path
   get 'pictures/:id' => 'pictures#show', as: 'picture'
 
+  get 'pictures/:id/edit' => 'pictures#edit', as: 'edit_picture'
+  patch 'pictures/:id' => 'pictures#update'
+
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
