@@ -1,7 +1,7 @@
 <h1>This is my first ever ruby on rails app</h1>
 
-
 <h2>Pictures</h2>
+<%= link_to "New Picture", "/pictures/new" %>
 
 <% @pictures.each do |picture| %>
   <p><%= picture.title %>, <%= picture.artist %></p>
