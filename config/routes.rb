@@ -4,8 +4,9 @@ Rails.application.routes.draw do
   get 'pictures' => 'pictures#index'
 
   #these two differentiate between the get request for a new picture page, and the post request to instantiate a new picture instance
-  post 'pictures' => 'pictures#create'
   get 'pictures/new' => 'pictures#new'
+  post 'pictures' => 'pictures#create'
+
 
   #links to the show method, and the "as picture" establishes this route as a picture_path
   get 'pictures/:id' => 'pictures#show', as: 'picture'
