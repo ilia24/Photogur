@@ -1,5 +1,14 @@
 Rails.application.routes.draw do
-  get 'pictures' => 'pictures#index' #match any GET request for for URL pictures with the index action in the picture controller
-  get 'pictures/:id' => 'pictures#show', as: 'picture' #links to the show method, and the "as picture" establishes this route as a picture_path
+
+  #match any GET request for for URL pictures with the index action in the picture controller
+  get 'pictures' => 'pictures#index'
+
+  #these two differentiate between the get request for a new picture page, and the post request to instantiate a new picture instance
+  post 'pictures' => 'pictures#create'
+  get 'pictures/new' => 'pictures#new'
+
+  #links to the show method, and the "as picture" establishes this route as a picture_path
+  get 'pictures/:id' => 'pictures#show', as: 'picture'
+
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
