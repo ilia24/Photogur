@@ -9,3 +9,5 @@ class CreatePictures < ActiveRecord::Migration[5.0]
     end
   end
 end
+
+#rake db:migrate to create the database, we do this to allow other users to create it like mine
