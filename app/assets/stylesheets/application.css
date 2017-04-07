@@ -69,7 +69,6 @@
  }
  /*END OF RESET*/
 
-
 header {
   background-color: rgb(23, 10, 107);
   height: 55px;
@@ -80,32 +79,29 @@ header {
 
 
 header p {
-  color: white;
-  font-size: 30px;
-  font-weight: 700;
   display: inline-block;
   width: 49%;
   margin-top: 9px;
+  color: white;
+  font-size: 30px;
+  font-weight: 700;
 }
 
 header ul {
-  width: 50%;
   display: inline-block;
+  width: 50%;
   margin: auto 0px;
   position: relative;
   top: 5px;
 }
 
 header a {
-  /*float: right;
-  display: inline-block;*/
   font-size: 25px;
   color: white;
   float: right;
   margin-left: 2%;
+  text-decoration: none;
 }
-
-
 
 h2 {
   background-color: blue;
