@@ -75,6 +75,7 @@ header {
   padding: 0% 10%;
   width: 100%;
   position: fixed;
+  top: 0px;
 }
 
 
@@ -104,7 +105,25 @@ header a {
 }
 
 /*END HEADER STYLING*/
-.picturewrapper {
+.picturegrid {
   width: 75%;
-  margin: 0px auto;
+  margin: 59px auto 0px;
 }
+
+.picture {
+  width: 33%;
+  height: 310px;
+  margin-left: 1px;
+  background-color: grey;
+  display: inline-block;
+}
+.picturewrapper {
+  width: 95%;
+  height: 275px;
+  margin: 2% 2% 0% 2%;
+  overflow: hidden;
+}
+
+/*.picturewrapper img {
+  width: 100%;
+}*/

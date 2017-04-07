@@ -1,9 +1,11 @@
-<div class="picturewrapper">
+<div class="picturegrid">
 
 <% @pictures.each do |picture| %>
 <div class="picture">
+  <div class="picturewrapper">
+    <img src="<%= picture.url %>">
+  </div>
   <p><%= picture.title %>, <%= picture.artist %></p>
-  <img src="<%= picture.url %>">
 </div>
 <% end %>
 
