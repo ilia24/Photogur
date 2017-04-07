@@ -103,6 +103,8 @@ header a {
   text-decoration: none;
 }
 
-h2 {
-  background-color: blue;
+/*END HEADER STYLING*/
+.picturewrapper {
+  width: 75%;
+  margin: 0px auto;
 }

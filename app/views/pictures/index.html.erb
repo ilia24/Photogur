@@ -1,4 +1,10 @@
+<div class="picturewrapper">
+
 <% @pictures.each do |picture| %>
+<div class="picture">
   <p><%= picture.title %>, <%= picture.artist %></p>
   <img src="<%= picture.url %>">
+</div>
 <% end %>
+
+</div>
