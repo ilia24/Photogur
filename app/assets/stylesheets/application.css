@@ -71,8 +71,41 @@
 
 
 header {
-  background-color: green;
+  background-color: rgb(23, 10, 107);
+  height: 55px;
+  padding: 0% 10%;
+  width: 100%;
+  position: fixed;
 }
+
+
+header p {
+  color: white;
+  font-size: 30px;
+  font-weight: 700;
+  display: inline-block;
+  width: 49%;
+  margin-top: 9px;
+}
+
+header ul {
+  width: 50%;
+  display: inline-block;
+  margin: auto 0px;
+  position: relative;
+  top: 5px;
+}
+
+header a {
+  /*float: right;
+  display: inline-block;*/
+  font-size: 25px;
+  color: white;
+  float: right;
+  margin-left: 2%;
+}
+
+
 
 h2 {
   background-color: blue;
