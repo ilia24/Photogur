@@ -105,6 +105,10 @@ header a {
 }
 
 /*END HEADER STYLING*/
+
+.bgcolor {
+  background-color: rgb(43,43,43);
+}
 .picturegrid {
   width: 75%;
   margin: 59px auto 0px;
@@ -112,16 +116,32 @@ header a {
 
 .picture {
   width: 33%;
-  height: 310px;
+  height: 440px;
   margin-left: 1px;
-  background-color: grey;
+  background-color: rgb(255, 179, 0);
   display: inline-block;
+  border-radius: 15px;
 }
 .picturewrapper {
   width: 95%;
-  height: 275px;
-  margin: 2% 2% 0% 2%;
+  height: 375px;
+  margin: 2.5% auto 0%;
   overflow: hidden;
+  border-radius: 10px;
+}
+.textwrapper {
+  height: 41px;
+  border-radius: 10px;
+  background-color: darkgrey;
+  margin: 1% 2.5% 2.5%;
+  overflow: auto;
+  padding: 8px;
+}
+
+.textwrapper p {
+  font-size: 22px;
+  font-weight: 700;
+  width: 800px;
 }
 
 /*.picturewrapper img {
