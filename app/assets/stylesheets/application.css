@@ -135,6 +135,7 @@ header a {
   background-color: darkgrey;
   margin: 1% 2.5% 2.5%;
   overflow: auto;
+  text-overflow: ellipsis;
   padding: 8px;
 }
 
@@ -142,7 +143,7 @@ header a {
   font-size: 22px;
   font-weight: 700;
   width: 800px;
-}
+}v
 
 /*.picturewrapper img {
   width: 100%;
