@@ -93,10 +93,21 @@ header a {
 }
 header ul {
   display: inline-flex;
-
+  position: absolute;
+  top: 9%;
+  right: 14%;
 }
+
 header ul a {
   font-family: 'Indie Flower', cursive;
   color: grey;
   list-style-type: none;
+  font-size: 17px;
+}
+
+header ul p {
+  position: relative;
+  bottom: 4px;
+  margin: 0px 5px;
+  font-size: 25px;
 }
