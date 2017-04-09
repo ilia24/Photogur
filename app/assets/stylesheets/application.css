@@ -116,6 +116,14 @@ header a {
   width: 32%;
   overflow: hidden;
   position: relative;
+  box-shadow: 7px 10px 9px rgba(0,0,0,0.30);
+  transition: all 0.3s ease-in-out;
+}
+
+.picture:hover {
+  box-shadow: 19px 19px 9px rgba(0,0,0,0.35);
+  transform: scale(1.05, 1.05);
+  transition: all 0.3s ease-in-out;
 }
 
 .picture img {
@@ -123,4 +131,25 @@ header a {
   width: auto;
   position: relative;
   right: 25%;
+}
+
+.textwrapper {
+  position: relative;
+  bottom: 29px;
+  right: -9px;
+  visibility: hidden;
+  height: 24px;
+  overflow: scroll;
+}
+
+.textwrapper p {
+  font-size: 17px;
+  font-weight: 700;
+  color: white;
+  height: 100%;
+  width: 150%;
+}
+
+.picture:hover .textwrapper {
+  visibility: visible;
 }
