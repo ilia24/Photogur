@@ -94,7 +94,7 @@ header a {
 header ul {
   display: inline-flex;
   position: absolute;
-  top: 9%;
+  top: 42px;
   right: 14%;
 }
 
