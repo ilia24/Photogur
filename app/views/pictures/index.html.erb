@@ -3,7 +3,7 @@
 <% @pictures.each do |picture| %>
 <div class="picture">
 
-    <img src="<%= picture.url %>">
+    <a href="/pictures/<%=picture.id%>"><img src="<%= picture.url %>"></a>
 
   <div class="textwrapper">
   <p><%= picture.title %>, <%= picture.artist %></p>
