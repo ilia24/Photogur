@@ -65,8 +65,10 @@ header {
   margin: 16px 0px 20px;
 }
 
-#menu {
+header a {
   font-size: 10px;
+  text-decoration: none;
+
 }
 
 .picturegrid {
@@ -88,4 +90,13 @@ header {
   width: auto;
   position: relative;
   right: 25%;
+}
+header ul {
+  display: inline-flex;
+
+}
+header ul a {
+  font-family: 'Indie Flower', cursive;
+  color: grey;
+  list-style-type: none;
 }
