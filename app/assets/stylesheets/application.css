@@ -66,7 +66,7 @@ header {
 }
 
 #menu {
-  display: none;
+  font-size: 10px;
 }
 
 .picturegrid {
@@ -77,10 +77,15 @@ header {
 .picture {
   display: inline-block;
   height: 403px;
+  margin: 5px;
   width: 32%;
   overflow: hidden;
+  position: relative;
 }
 
-/*.picturewrapper {
-  width: 100%;
-}*/
+.picture img {
+  max-height: 100%;
+  width: auto;
+  position: relative;
+  right: 25%;
+}

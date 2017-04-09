@@ -3,9 +3,7 @@
 <% @pictures.each do |picture| %>
 <div class="picture">
 
-  <div class="picturewrapper">
     <img src="<%= picture.url %>">
-  </div>
 
   <div class="textwrapper">
   <p><%= picture.title %>, <%= picture.artist %></p>
