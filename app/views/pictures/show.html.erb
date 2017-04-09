@@ -1,4 +1,8 @@
-<%= link_to "Back to Pictures", pictures_url %> | <%= link_to "Edit", edit_picture_path(@picture) %> | <%= link_to "Delete Picture", @picture, method: :delete, data: {confirm: "Are you sure you want to delete this picture?"} %>
+<div class="singleimagecenter">
+
 
 <p><%= @picture.title %>, <%= @picture.artist %></p>
 <img src="<%= @picture.url %>">
+
+<%= link_to "Back to Pictures", pictures_url %> <span>|</span> <%= link_to "Edit", edit_picture_path(@picture) %> <span>|</span> <%= link_to "Delete Picture", @picture, method: :delete, data: {confirm: "Are you sure you want to delete this picture?"} %>
+</div>

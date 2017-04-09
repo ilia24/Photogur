@@ -66,6 +66,7 @@ header {
   font-weight: 800;
   font-family: 'Indie Flower', cursive;
   border-bottom: solid;
+  color: black;
   border-top: solid;
   border-width: 3px;
   padding: 0px 35px 2px;
@@ -111,6 +112,7 @@ header a {
 
 .picture {
   display: inline-block;
+  border-radius: 5px;
   height: 403px;
   margin: 5px;
   width: 32%;
@@ -152,4 +154,46 @@ header a {
 
 .picture:hover .textwrapper {
   visibility: visible;
+}
+
+/*SINGLE PICTURE DISPLAY*/
+
+.singleimagecenter {
+  width: 70%;
+  margin: 0px auto;
+  text-align: center;
+}
+.singleimagecenter img {
+  margin: 0px auto;
+  max-width: 100%;
+  display: block;
+
+}
+
+.singleimagecenter p {
+  font-family: 'Indie Flower', cursive;
+  color: grey;
+  list-style-type: none;
+  font-size: 17px;
+}
+
+.singleimagecenter a {
+  text-decoration: none;
+  font-family: 'Indie Flower', cursive;
+  color: grey;
+  font-size: 20px;
+}
+
+.singleimagecenter span {
+  font-size: 27px;
+  position: relative;
+  bottom: -5px;
+}
+
+footer {
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+  color: black;
+  margin-top: 50px;
+  font-size: 20px;
 }
