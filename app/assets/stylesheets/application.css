@@ -49,6 +49,13 @@
  /*END OF RESET*/
 
 
+
+
+/*HEADER AND LOGO*/
+
+
+
+
 header {
   text-align: center;
 }
@@ -65,11 +72,37 @@ header {
   margin: 16px 0px 20px;
 }
 
+header ul {
+  display: inline-flex;
+  position: absolute;
+  top: 42px;
+  right: 14%;
+}
+
+header ul a {
+  font-family: 'Indie Flower', cursive;
+  color: grey;
+  list-style-type: none;
+  font-size: 17px;
+}
+
+header ul p {
+  position: relative;
+  bottom: 4px;
+  margin: 0px 5px;
+  font-size: 25px;
+}
+
 header a {
   font-size: 10px;
   text-decoration: none;
 
 }
+
+
+/*PICTURE GRID*/
+
+
 
 .picturegrid {
   width: 75%;
@@ -90,24 +123,4 @@ header a {
   width: auto;
   position: relative;
   right: 25%;
-}
-header ul {
-  display: inline-flex;
-  position: absolute;
-  top: 42px;
-  right: 14%;
-}
-
-header ul a {
-  font-family: 'Indie Flower', cursive;
-  color: grey;
-  list-style-type: none;
-  font-size: 17px;
-}
-
-header ul p {
-  position: relative;
-  bottom: 4px;
-  margin: 0px 5px;
-  font-size: 25px;
 }
