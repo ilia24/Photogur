@@ -1,2 +1,7 @@
 This assignment is creating an IMGUR clone using rails for the first time!
 LINK TO HOSTED SITE: https://photogur-assignment.herokuapp.com/
+
+TO DO list-style
+-Make site mobile responsive
+-Make CSS styling for new picture page
+-add about page
